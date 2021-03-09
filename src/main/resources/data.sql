@@ -26,7 +26,7 @@ CREATE TABLE domain_detail (
   allow_delete BOOLEAN NOT NULL,
   FOREIGN KEY(domain_id) REFERENCES domain
 );
-
+ 
 
 INSERT INTO domain_detail (domain_id, extract, source, load_type, transform_type, action, action_type, allow_delete) VALUES
   (1, 
